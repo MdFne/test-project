@@ -1,7 +1,5 @@
 body {
-  font-size:           small;
-  font-family:         Verdana, Helvetica, Arial, sans-serif;
-  line-height:         1.6em;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
@@ -28,8 +26,69 @@ h2 {
   padding:             25px;
   padding-left:        80px;
   margin:              30px;
-  margin-right:        250px;
+  margin-right:        500px;
   background-image:    url("images/background.gif");
   background-repeat:   no-repeat;
   background-position: top left;
+}
+
+#elixirs {
+  border: thin solid #007e7e;
+  width: 400px;
+
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  margin-left: 20px;
+
+  text-align: center;
+
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+
+  line-height: 1;
+
+  float: right;
+}
+
+#elixirs h2 {
+  color: black;
+}
+#elixirs h3 {
+  color: #d12c47;
+}
+
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+
+a:link {
+  color: green;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: rgb(207, 128, 0);
+}
+a:focus {
+  color: rgb(13, 0, 255);
+}
+a:active {
+  color: red;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+#elixirs a:visited {
+  color: #333333;
+}
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
